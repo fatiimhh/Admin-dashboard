@@ -431,7 +431,6 @@ export default function AuthNavbar(props) {
                   color='#fff'
                   maxW='80%'
                   textAlign='center'>
-                  Explore our utilities pages
                 </Text>
               </Flex>
               <SimpleGrid templateColumns='1fr' width='100%'>
@@ -560,7 +559,7 @@ export default function AuthNavbar(props) {
             />
           </Box>
           {linksAuth}
-          <Link href='https://www.horizon-ui.com/pro'>
+          <Link href=''>
             <Button
               bg={bgButton}
               color={colorButton}
